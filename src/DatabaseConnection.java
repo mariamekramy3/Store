@@ -4,12 +4,12 @@ public class DatabaseConnection {
  
 	//Update the database name, user, and password to match my setup
 	private static final String URL = 
-			"jdbc:sqlserver://localhost/SQLEXPRESS11:1433:" 
-					+ "databaseName=store"
+			"jdbc:sqlserver://localhost\\SQLEXPRESS11;" 
+					+ "databaseName=store;"
 					+ "encrypt=true;trustServerCertificate=true";
 	
 	private static final String USER = "sa";
-	private static final String PASSWORD = "your_password_here";
+	private static final String PASSWORD = "112008Mariam@";
 	
 	
 	public Connection getConnection(){
